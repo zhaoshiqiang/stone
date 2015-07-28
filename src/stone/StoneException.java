@@ -2,6 +2,7 @@ package stone;
 
 import stone.ast.ASTree;
 
+@SuppressWarnings("serial")
 public class StoneException extends RuntimeException {
 	
 	public StoneException(String m)

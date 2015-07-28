@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.LineNumberReader;
 import java.io.Reader;
 import java.util.ArrayList;
-import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
