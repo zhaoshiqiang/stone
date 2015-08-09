@@ -21,7 +21,7 @@ public class Lexer {
 		hasMore=true;
 		reader=new LineNumberReader(r);
 	}
-	
+	//返回读到的单词
 	public Token read() throws ParseException
 	{
 		if(fillQueue(0))
